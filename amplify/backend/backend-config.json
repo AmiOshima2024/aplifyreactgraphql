@@ -4,10 +4,16 @@
       "dependsOn": [],
       "output": {
         "authConfig": {
-          "additionalAuthenticationProviders": [],
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            }
+          ],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
+              "apiKeyExpirationDate": "2024-08-28T05:31:18.801Z",
+              "apiKeyExpirationDays": 30,
+              "description": "da2-luooewinmrgibj6sd2osev2yq4"
             },
             "authenticationType": "API_KEY"
           }
@@ -44,7 +50,7 @@
     }
   },
   "storage": {
-    "s354c01df1": {
+    "s3327109a8": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

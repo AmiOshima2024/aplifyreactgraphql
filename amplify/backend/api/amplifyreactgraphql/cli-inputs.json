@@ -4,9 +4,16 @@
     "apiName": "amplifyreactgraphql",
     "serviceName": "AppSync",
     "defaultAuthType": {
-      "mode": "AWS_IAM"
+      "mode": "API_KEY",
+      "expirationTime": 30,
+      "apiKeyExpirationDate": "2024-08-28T05:31:18.801Z",
+      "keyDescription": "da2-luooewinmrgibj6sd2osev2yq4"
     },
     "conflictResolution": {},
-    "additionalAuthTypes": []
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
   }
 }
